@@ -1,0 +1,13 @@
+         Račun
+------------------------------
+------------------------------
+Ime: Denius 
+Prezime: Lukioc
+Datum: 29-05-2025
+Vrijeme: 10:00
+Usluga: Manikura
+Cijena: 20€
+------------------------------
+------------------------------
+
+   Hvala na povjerenju!   
