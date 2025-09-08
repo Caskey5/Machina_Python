@@ -12,17 +12,17 @@ class BeautySalonApp:
         self.root.title("Kozmetički salon")
         self.root.geometry("700x500")
         self.root.resizable(True, True)
-        self.setup_background()
+#        self.setup_background()
         self.setup_welcome()
 
-    def setup_background(self):
-        bg_image = Image.open("pictures/pozadina.png")
-        bg_image = bg_image.resize((700, 500))
-        self.bg_photo = ImageTk.PhotoImage(bg_image)
+    # def setup_background(self):
+    #     bg_image = Image.open("pictures/pozadina.png")
+    #     bg_image = bg_image.resize((700, 500))
+    #     self.bg_photo = ImageTk.PhotoImage(bg_image)
 
-        self.bg_label = tk.Label(self.root, image=self.bg_photo)
-        self.bg_label.image = self.bg_photo
-        self.bg_label.place(x=0, y=0, relwidth=1, relheight=1)
+    #     self.bg_label = tk.Label(self.root, image=self.bg_photo)
+    #     self.bg_label.image = self.bg_photo
+    #     self.bg_label.place(x=0, y=0, relwidth=1, relheight=1)
 
     def setup_welcome(self):
         self.welcome_label = tk.Label(
